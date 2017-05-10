@@ -1,10 +1,11 @@
 {
   "name": "smooth-polyline",
   "description": "Smoothing algorithm for 2D lines and polygons",
-  "main": "dist/smooth-polyline.min.js",
+  "main": "dist/smooth-polyline.js",
   "authors": [
     "Igor Ognichenko <ognichenko.igor@gmail.com>"
   ],
+  "version": "1.0.2",
   "license": "MIT",
   "homepage": "https://github.com/RobinCK/smooth-polyline",
   "ignore": [
