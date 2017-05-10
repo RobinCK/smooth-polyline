@@ -46,8 +46,7 @@
     "round",
     "points",
     "line",
-    "path",
-
+    "path"
   ],
   "repository": {
     "type": "git",

@@ -23,8 +23,7 @@
     "round",
     "points",
     "line",
-    "path",
-
+    "path"
   ],
   "ignore": [
     ".bowerrc",
