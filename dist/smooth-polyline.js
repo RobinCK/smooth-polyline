@@ -1,1 +1,42 @@
-!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?module.exports=n():"function"==typeof define&&define.amd?define(n):e.smooth=n()}(this,function(){"use strict";function e(e,n){return e[0]=n[0],e[1]=n[1],e}return function(n){var t=[];n.length>0&&t.push(e([0,0],n[0]));for(var o=0;o<n.length-1;o++){var u=n[o],f=n[o+1],r=u[0],i=u[1],h=f[0],s=f[1];t.push([.85*r+.15*h,.85*i+.15*s]),t.push([.15*r+.85*h,.15*i+.85*s])}return n.length>1&&t.push(e([0,0],n[n.length-1])),t}});
+(function (global, factory) {
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global.smooth = factory());
+}(this, (function () { 'use strict';
+
+function copy(out, a) {
+  out[0] = a[0];
+  out[1] = a[1];
+
+  return out;
+}
+
+var index = function (points) {
+  var output = [];
+
+  if (points.length > 0) {
+    output.push(copy([0, 0], points[0]));
+  }
+
+  for (var i = 0; i < points.length - 1; i++) {
+    var p0 = points[i];
+    var p1 = points[i + 1];
+    var p0x = p0[0];
+    var p0y = p0[1];
+    var p1x = p1[0];
+    var p1y = p1[1];
+
+    output.push([0.85 * p0x + 0.15 * p1x, 0.85 * p0y + 0.15 * p1y]);
+    output.push([0.15 * p0x + 0.85 * p1x, 0.15 * p0y + 0.85 * p1y]);
+  }
+
+  if (points.length > 1) {
+    output.push(copy([0, 0], points[points.length - 1]));
+  }
+
+  return output;
+};
+
+return index;
+
+})));
