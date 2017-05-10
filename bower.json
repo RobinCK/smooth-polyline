@@ -24,6 +24,6 @@
     "bower_components",
     "CHANGELOG.md",
     "test",
-    "tests",
+    "tests"
   ]
 }
