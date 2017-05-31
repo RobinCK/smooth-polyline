@@ -16,7 +16,7 @@
   },
   "name": "smooth-polyline",
   "description": "Smoothing algorithm for 2D lines and polygons",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/smooth-polyline.min.js",
   "files": [
     "src",
