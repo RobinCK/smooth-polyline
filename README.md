@@ -5,8 +5,12 @@ Smoothing algorithm for 2D lines and polygons
 <div align="center">
 
   [![Build Status](https://img.shields.io/travis/RobinCK/smooth-polyline.svg?style=flat-square)](https://travis-ci.org/RobinCK/smooth-polyline)[![Code Climate](https://img.shields.io/codeclimate/github/RobinCK/smooth-polyline.svg?style=flat-square)](https://codeclimate.com/github/RobinCK/smooth-polyline)[![npm](https://img.shields.io/npm/dt/smooth-polyline.svg?style=flat-square)](https://github.com/RobinCK/smooth-polyline)[![Dependencies](https://david-dm.org/robinck/smooth-polyline.svg?style=flat-square)](https://david-dm.org/robinck/smooth-polyline)[![devDependencies](https://david-dm.org/robinck/smooth-polyline/dev-status.svg?style=flat-square)](https://david-dm.org/robinck/smooth-polyline#info=devDependencies&view=table)[![Bower version](https://img.shields.io/bower/v/smooth-polyline.svg?style=flat-square)](https://github.com/RobinCK/smooth-polyline)[![NPM version](https://img.shields.io/npm/v/smooth-polyline.svg?style=flat-square)](https://www.npmjs.com/package/smooth-polyline)[![npm](https://img.shields.io/npm/l/smooth-polyline.svg?style=flat-square)](https://github.com/RobinCK/smooth-polyline/blob/master/LICENSE)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRobinCK%2Fsmooth-polyline.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRobinCK%2Fsmooth-polyline?ref=badge_shield)
 
 </div>
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRobinCK%2Fsmooth-polyline.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRobinCK%2Fsmooth-polyline?ref=badge_large)
 
 ## Install
 #### CDN
