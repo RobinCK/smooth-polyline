@@ -1,22 +1,10 @@
 {
   "dependencies": {},
-  "devDependencies": {
-    "babel-eslint": "^8.0.0",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-register": "^6.24.1",
-    "babelrc-rollup": "^3.0.0",
-    "eslint": "^4.7.0",
-    "rollup": "^0.50.0",
-    "rollup-plugin-babel": "^3.0.2",
-    "rollup-plugin-eslint": "^4.0.0",
-    "rollup-plugin-uglify": "^2.0.1",
-    "rollup-watch": "^4.3.1"
-  },
+  "devDependencies": {},
   "name": "smooth-polyline",
   "description": "Smoothing algorithm for 2D lines and polygons",
   "version": "1.0.6",
-  "main": "dist/smooth-polyline.min.js",
+  "main": "index.min.js",
   "files": [
     "src",
     "dist/*.js"
@@ -24,11 +12,7 @@
   "scripts": {
     "lint": "node_modules/.bin/eslint src test",
     "build": "node_modules/.bin/rollup -c && NODE_ENV=production node_modules/.bin/rollup -c",
-    "watch": "node_modules/.bin/rollup -c -w",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "patch": "npm version patch --no-git-tag-version && git add package.json && git commit -m 'update version' && git push origin master && bower version patch && git push origin master --follow-tags && npm publish",
-    "minor": "npm version minor --no-git-tag-version && git add package.json && git commit -m 'update version' && git push origin master && bower version minor && git push origin master --follow-tags && npm publish",
-    "major": "npm version major --no-git-tag-version && git add package.json && git commit -m 'update version' && git push origin master && bower version major && git push origin master --follow-tags && npm publish"
+    "watch": "node_modules/.bin/rollup -c -w"
   },
   "keywords": [
     "chaikin",

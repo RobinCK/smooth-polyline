@@ -1,7 +1,5 @@
+.codeclimate.yml
 .editorconfig
 .gitignore
 .npmignore
-_config.yml
-bower.json
 CHANGELOG.md
-.codeclimate.yml
