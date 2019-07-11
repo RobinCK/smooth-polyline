@@ -3,7 +3,7 @@
   "devDependencies": {},
   "name": "smooth-polyline",
   "description": "Smoothing algorithm for 2D lines and polygons",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.min.js",
   "files": [
     "src",
